@@ -24,6 +24,23 @@
     margin: 0 30px;
 }
 
+/* top-section item (image + heart  +discount/product-type) */
+
+img{
+    width: 100%;
+}
+
+img.hover{
+    display: none;
+}
+
+.image:hover img{
+    display: none;
+}
+
+.image:hover .hover{
+    display: block;
+}
 
 
 
@@ -35,10 +52,6 @@
 
 
 /* to remove later */
-.container{
-    height: 1000px;
-    background-color: aqua;
-}
 
 .row-items{
     border: 4px solid fuchsia;
