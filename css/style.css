@@ -102,4 +102,10 @@ img.hover{
     padding-top: 15px;
 }
 
+.advertise-description{
+    position: absolute;
+    background-color: #5ab451;
+    height: 100px;
+}
+
 
