@@ -4,3 +4,59 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row-items::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.item{
+    width: calc(100% / 3 - 20px);
+    float: left;
+}
+
+.item.middle{
+    margin: 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* to remove later */
+.container{
+    height: 1000px;
+    background-color: aqua;
+}
+
+.row-items{
+    border: 4px solid fuchsia;
+}
+
+.item{
+    height: 500px;
+    background-color: bisque;
+}
+
+.item.middle{
+    background-color: darkcyan;
+}
+
+.left{
+    background-color: crimson;
+}
+
+.row-item{
+    background-color: darkblue;
+}
