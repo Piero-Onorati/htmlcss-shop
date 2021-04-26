@@ -5,7 +5,7 @@
 }
 
 body{
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 .container{
@@ -113,11 +113,6 @@ img.hover{
 .image:hover .overlay{
     display: block;
 }
-/* .image:hover .overlay {
-    height: 26%;
-    display: block;
-} */
-
 
 .more-size{
     display: inline-block;
@@ -133,9 +128,14 @@ img.hover{
 
 .item-description{
     padding-top: 10px;
-    font-size: 19px;
+    font-size: 18px;
 }
 
+.brand{
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #3d3d3d;
+}
 .item-description .brand .symbol{
     font-size: 12px;
     vertical-align: text-top;
@@ -149,16 +149,13 @@ img.hover{
 .item-description .price{
     color: red;
     display: inline-block;
+    padding-top: 20px
 }
 
 .item-description .price-black{
     color: black;
     display: inline-block;
-    padding-top: 10px
-}
-
-.price{
-    padding-top: 10px;
+    padding-top: 20px
 }
 
 .advertise{
@@ -170,13 +167,11 @@ img.hover{
     position:absolute;
     top: 534px;
     width: 100%;
-    padding: 15px 20px;
+    padding: 25px;
 }
 
 .slogan-1, .slogan-2{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
     display: block;
 }
-
-
