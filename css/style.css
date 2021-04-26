@@ -26,9 +26,14 @@
 
 /* top-section item (image + heart  +discount/product-type) */
 
+.image{
+    position: relative;
+}
+
 img{
     width: 100%;
 }
+
 
 img.hover{
     display: none;
@@ -42,8 +47,35 @@ img.hover{
     display: block;
 }
 
+.heart{
+    font-size: 45px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffffff;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    top : 10px;
+}
 
+.info-item{
+    position: absolute;
+    bottom: 20px;
+}
 
+.discount{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+}
+
+.product-type{
+    background-color: #00875a;
+    padding: 5px 10px;
+    color: white;
+
+}
 
 
 
@@ -53,14 +85,6 @@ img.hover{
 
 /* to remove later */
 
-.row-items{
-    border: 4px solid fuchsia;
-}
-
-.item{
-    height: 500px;
-    background-color: bisque;
-}
 
 .item.middle{
     background-color: darkcyan;
