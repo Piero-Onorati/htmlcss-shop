@@ -112,10 +112,22 @@ img.hover{
     padding-top: 10px;
 }
 
+.advertise{
+    position: relative;
+}
+
 .advertise-description{
-    position: absolute;
     background-color: #5ab451;
-    height: 100px;
+    position:absolute;
+    top: 534px;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.slogan-1, .slogan-2{
+    font-size: 20px;
+    line-height: 30px;
+    display: block;
 }
 
 
