@@ -74,26 +74,32 @@ img.hover{
     background-color: #00875a;
     padding: 5px 10px;
     color: white;
+}
 
+/* bottom-section item (item description: brand + name + price) */
+
+.item-description{
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+.item-description .brand .symbol{
+    font-size: 12px;
+    vertical-align: text-top;
+}
+
+.item-description .name-item .name{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.item-description .price{
+    color: red;
+    display: inline-block;
+}
+
+.price{
+    padding-top: 15px;
 }
 
 
-
-
-
-
-
-/* to remove later */
-
-
-.item.middle{
-    background-color: darkcyan;
-}
-
-.left{
-    background-color: crimson;
-}
-
-.row-item{
-    background-color: darkblue;
-}
