@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+.row-items{
+    padding-bottom: 50px;
+}
+
 .row-items::after{
     content: '';
     display: table;
@@ -98,8 +102,14 @@ img.hover{
     display: inline-block;
 }
 
+.item-description .price-black{
+    color: black;
+    display: inline-block;
+    padding-top: 10px
+}
+
 .price{
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .advertise-description{
