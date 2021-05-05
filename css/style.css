@@ -53,7 +53,7 @@ img.hover{
 }
 
 .image:hover .hover{
-    display: block;
+    display: inline-block;
 }
 
 .heart{
